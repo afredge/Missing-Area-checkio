@@ -1,12 +1,12 @@
-def sum_two(a: int, b: int) -> int:
+def find_area(rectangles: int[][])) -> int:
     # your code here
     return 0
 
 
 print("Example:")
-print(sum_two(3, 2))
+print(find_area([[0, 0, 1, 1]]))
 
 # These "asserts" are used for self-checking and not for an auto-testing
-assert sum_two(3, 2) == 5
-assert sum_two(5, 7) == 12
+assert find_area([[0, 0, 1, 1]]) == 0
+
 print("Coding complete? Click 'Check' to earn cool rewards!")
